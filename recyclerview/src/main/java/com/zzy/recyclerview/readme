@@ -1,0 +1,6 @@
+RecyclerView
+
+    LayoutManager去实现ListView、GridView、横向ListView/GridView、瀑布流
+    ItemDecoration实现的原理和如何定制
+    ItemAnimator的使用
+    手动在Adapter提供Item Click/LongClick的回调

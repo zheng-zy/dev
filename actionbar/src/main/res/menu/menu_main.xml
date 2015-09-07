@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/add"
+        android:orderInCategory="100"
+        android:title="@string/add"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/del"
+        android:orderInCategory="100"
+        android:title="@string/del"
+        android:icon="@android:drawable/ic_input_delete"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mod"
+        android:orderInCategory="100"
+        android:title="@string/mod"
+        android:icon="@android:drawable/ic_input_get"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/que"
+        android:orderInCategory="100"
+        android:title="@string/que"
+        app:showAsAction="always" />
+</menu>
